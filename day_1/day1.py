@@ -10,7 +10,7 @@ def get_num_differences(num_list):
 
     counter = 0
     for index in range(len(num_list)):
-        if num_list[index] > num_list[index -1]:
+        if num_list[index] > num_list[index-1]:
             counter+=1
     return counter
 
